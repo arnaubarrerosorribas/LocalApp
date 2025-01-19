@@ -48,9 +48,9 @@ class UserController extends Controller {
 
         $verificationUrl = route('verification.verify', ['id' => $user->id, 'hash' => sha1($user->email)]);
 
-        Mail::raw("Por favor, verifica tu correo electrónico haciendo clic en el siguiente enlace: {$verificationUrl}", function ($message) use ($user) {
+        Mail::send('emails.verify', ['verificationUrl' => $verificationUrl], function ($message) use ($user) {
             $message->to($user->email)
-                    ->subject('Verificación de correo electrónico');
+                    ->subject('Verificación de email | ·LOCAL');
         });
 
         return response()->json([
