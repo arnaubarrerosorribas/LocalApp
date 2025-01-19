@@ -59,7 +59,7 @@
     <body>
         <div class="container">
             <div class="header">
-                <h1>¡Bienvenido a ·LOCAL!</h1>
+                <h1>¡Bienvenido a PuntoLocal!</h1>
             </div>
             <div class="content">
                 <p>Gracias por registrarte con nosotros. Para completar tu registro, por favor verifica tu correo electrónico haciendo clic en el siguiente botón:</p>
@@ -67,7 +67,7 @@
                 <p>Si no has creado una cuenta con nosotros, por favor ignora este mensaje.</p>
             </div>
             <div class="footer">
-                <p>&copy; {{ date('Y') }} ·LOCAL | Todos los derechos reservados.</p>
+                <p>&copy; {{ date('Y') }} PuntoLocal | Todos los derechos reservados.</p>
             </div>
         </div>
     </body>
