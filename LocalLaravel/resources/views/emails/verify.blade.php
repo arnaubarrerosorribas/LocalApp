@@ -62,7 +62,7 @@
                 <h1>¡Bienvenido a ·LOCAL!</h1>
             </div>
             <div class="content">
-                <p>Gracias por registrarte con nosotros. Para completar tu registro, por favor verifica tu correo electrónico haciendo clic en el siguiente enlace:</p>
+                <p>Gracias por registrarte con nosotros. Para completar tu registro, por favor verifica tu correo electrónico haciendo clic en el siguiente botón:</p>
                 <a href="{{ $verificationUrl }}" class="button">Verificar Correo Electrónico</a>
                 <p>Si no has creado una cuenta con nosotros, por favor ignora este mensaje.</p>
             </div>
