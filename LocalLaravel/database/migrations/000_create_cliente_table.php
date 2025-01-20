@@ -21,8 +21,10 @@
                 $table->string('ciudad');                           // Ciudad
                 $table->string('provincia');                        // Provincia
                 $table->integer('codigo_postal');                   // Código postal
-                $table->integer('numero_planta');                   // Numero de la planta
-                $table->integer('numero_puerta');                   // Numero puerta
+                $table->integer('numero_planta')->nullable();       // Numero de la planta
+                $table->integer('numero_puerta')->nullable();       // Numero puerta
+
+                $table->integer('puntos')->nullable();
 
                 $table->rememberToken();
                 $table->timestamps();
